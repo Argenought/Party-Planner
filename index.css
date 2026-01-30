@@ -1,0 +1,11 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "upcoming-Party Party-Detail";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  background-color: skyblue;
+}
